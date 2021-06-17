@@ -9,6 +9,8 @@ App that allow to view market data from Huobi.
 ## Features
 - Real-Time charts
 
+## Screen
+![](https://github.com/andreiliphd/katherine-huobi-android-viewer/blob/master/screens/kathrine.png)
 
 ## Dependencies
 
