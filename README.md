@@ -46,7 +46,13 @@ git clone git@github.com:andreiliphd/katherine-huobi-android-viewer.git
 
 
 ## Usage
-Compile and run.
+1. Install Android Studio,
+2. Sync dependencies.
+3. Create file env in /app/src/main/assets with the following format:
+scichart=insert scichart key(trial is available at [Scichart](https://www.scichart.com))
+key=huobi key([Huobi](https://www.huobi.com))
+secret=huobi secret
+4. Compile and run.
 
 ---
 
