@@ -85,8 +85,11 @@ public class MainActivity extends AppCompatActivity {
                         String response = client.callJson(dotenv.get("key"), dotenv.get("secret"), "POST", "https://api.huobi.pro/market/trade", query, params);
                         Float price = JSON.parseObject(response).getJSONObject("tick").getJSONArray("data").getJSONObject(0).getFloat("price");
                         Log.i("HUOBI",price.toString());
-                        if (x >= 1000) dataSeries.removeAt(0);
-                        dataSeries.append((double) x, (double)price);
+                        dataSeries.append((double) x, (double) price);
+                        if (x >= 1000) {
+                            dataSeries.removeAt(0);
+                            dataSeries.append((double) x, (double) price);
+                        }
                         // Zoom series to fit the viewport
                         surface.zoomExtents();
                     }
