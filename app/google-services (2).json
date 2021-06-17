@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "265979019417",
+    "project_id": "andreili",
+    "storage_bucket": "andreili.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265979019417:android:f9c052c83863e7b58e7808",
+        "android_client_info": {
+          "package_name": "com.andreiliphd.katherine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265979019417-egj7to2evc7toi5mgbufku1b8aln6h0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh1WR80xL5sRv2j7ymiymHzEAqBEz4ZlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265979019417-egj7to2evc7toi5mgbufku1b8aln6h0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
